@@ -36,7 +36,7 @@ except:
     print("Could not connect to MongoDB")
 
 consumer = KafkaConsumer('test',bootstrap_servers=[
-     '  my-kafka-0.my-kafka-headless.v2-ivanavila1224.svc.cluster.local:9092'
+     'my-kafka-0.my-kafka-headless.v2-ivanavila1224.svc.cluster.local:9092'
     ])
 # Parse received data from Kafka
 for msg in consumer:
