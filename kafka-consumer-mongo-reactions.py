@@ -30,7 +30,7 @@ try:
     client.admin.command('ping')
     print("Pinged your deployment. You successfully connected to MongoDB!")
 
-    db = client.tkdapp
+    db = client.memes
     print("MongoDB Connected successfully todo bien hasta aqui!")
 except:
     print("Could not connect to MongoDB Aquiii")
